@@ -1,0 +1,21 @@
+table {
+  width: 70%;
+  text-align: left;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0 1.5rem;
+  padding-left: 20%;
+}
+
+tr, td{
+  vertical-align: center;
+}
+
+.chk{
+  margin: 10px;
+  text-align: center;
+}
+
+form{
+  text-align: center;
+}

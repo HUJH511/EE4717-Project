@@ -1,0 +1,17 @@
+table {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0 1.5rem;
+}
+
+tbody tr {
+  background-color: white;
+  outline: auto;
+}
+
+tfoot button{
+  width: fit-content;
+  font-size: large;
+}

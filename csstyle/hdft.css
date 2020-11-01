@@ -1,0 +1,78 @@
+/* ========================================== CSS FOR BASIC LAYOUT ====================================== */
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(240,240,240);
+    height: auto;
+    min-width: 1500px;
+}
+
+header{
+  background-color:white;
+  height: 120px;
+  background-color: white;
+  padding-bottom: 0.5rem;
+}
+
+.header_photo{
+  margin-left: 30%;
+}
+
+nav{
+    font-weight: bold;
+    font-size: larger;
+    width:fit-content ;
+    margin: auto;
+}
+
+nav a{
+  margin: 7rem;
+  padding: 2px;
+  color:pink;
+}
+nav a:hover{
+    background-color: darkgray;
+    color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+.wrapper{
+    margin: auto;
+    height: auto;
+    width: 80%;
+    background-color: #FFE7E7;
+}
+
+footer{
+    background-color: whitesmoke;
+    display: block;
+    padding-top: 1rem;
+}
+
+.footer_nav{
+    display: flex;
+}
+
+.footer_nav div {
+    margin: auto;
+    font-size: large;
+    font-weight: bold;
+}
+
+.footer_nav div a{
+  padding: 0.5rem;
+  color:pink;
+}
+.footer_nav div a:hover{
+  background-color: darkgray;
+  color: white;
+}
+
+.footer_info{
+    padding-top: 1rem;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}

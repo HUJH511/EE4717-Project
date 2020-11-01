@@ -1,0 +1,111 @@
+.leftcol{
+  float: left;
+  width: 210px;
+  background-color: pink;
+  padding-left: 20px;
+  padding-bottom: 1300px;;
+}
+
+.fixfilter{
+  position:fixed;
+  width: 190px;
+
+}
+
+.filtertitle{
+  padding:0.5rem;
+  font-size: larger;
+  padding-left: 15px;
+}
+
+.linktitle{
+  padding:0.7rem;
+  font-size: larger;
+  color: black;
+  text-align: center;
+}
+
+.filter{
+  margin-top:0.5rem ;
+  margin-left: 1rem;
+  padding-bottom: 5%;
+  display: grid;
+  display: block;
+  margin-right: 1rem;
+}
+
+.filtersub{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+}
+
+.product_img_1{
+  width: 100%;
+}
+
+.product_img_2{
+  width: 100%;
+}
+
+.separateline{
+ border-bottom: solid 1px #ececec ;
+ width: 90%;
+ margin:auto;
+ padding-top: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 5px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 27.6%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  height: 630px;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 6px 8px ;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}

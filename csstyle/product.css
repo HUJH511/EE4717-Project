@@ -1,0 +1,120 @@
+.col{
+  float:left;
+  padding: 10px;
+}
+
+.col.img{
+  width: 15%;
+  padding: 5px 5px;
+}
+
+.col.show{
+  width: 48%;
+}
+
+.col.info{
+  width: 37%;
+}
+
+.mySlides {
+  display: none;
+}
+
+.mainproduct:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.otherproduct:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.numbertext {
+  color:black;
+  font-size: 12px;
+  padding: 15px 12px;
+  position: absolute;
+  top: 16%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  margin-left: 515px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.formstyle{
+  margin-left: 5%;
+}
+
+tr{
+  text-align:center;
+  height: 50px;
+}
+
+.description{
+  margin: 10px 20px 0 30px;
+  border-style: solid;
+  border-width: thin;
+}
+
+.colbtmtitle{
+  float: left;
+  width: 10%;
+  padding: 30px 5px;
+  height: 300px;
+  text-align: right;
+}
+
+.colbtm{
+  float: left;
+  width: 22%;
+  padding: 30px 5px;
+  height: 400px;
+}
